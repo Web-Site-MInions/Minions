@@ -17,27 +17,35 @@
     </div>
 </header>
 <main>
-    <div>
-        <img class ="pic pic1" src="pics/pic1.jpg" alt="pic1"/>
-    </div>
-    <div>
-        <img class ="pic pic2" src="pics/pic2.jpg" alt="pic2"/>
-    </div>
-    <div>
-        <img class ="pic pic3" src="pics/pic3.jpg" alt="pic3"/>
-    </div>
-    <div>
-        <img class ="pic pic4" src="pics/pic4.jpg" alt="pic4"/>
-    </div>
-    <div>
-        <img class ="pic pic5" src="pics/pic5.jpg" alt="pic5"/>
-    </div>
-    <div>
-        <img class ="pic pic6" src="pics/pic6.jpg" alt="pic6"/>
-    </div>
+    <img id = "pic1" class ="pic " src="pics/pic1.jpg" alt="pic1" onClick="imgsrc();"/>
+    <button onclick="pic1.src='pics/pic2.jpg',
+    pic2.src='pics/pic3.jpg',
+    pic3.src='pics/pic4.jpg',
+    pic4.src='pics/pic5.jpg',
+    pic5.src='pics/pic6.jpg',
+    pic6.src='pics/pic1.jpg'">change pic</button>
+    <img id = "pic2" class ="pic" src="pics/pic2.jpg" alt="pic2" onClick="imgsrc();"/>
+    <img id = "pic3" class ="pic" src="pics/pic3.jpg" alt="pic3" onClick="imgsrc();"/>
+    <img id = "pic4" class ="pic" src="pics/pic4.jpg" alt="pic4" onClick="imgsrc();"/>
+    <img id = "pic5" class ="pic" src="pics/pic5.jpg" alt="pic5" onClick='imgsrc();'/>
+
+    <img id = "pic6" class ="pic " src="pics/pic6.jpg" alt="pic6" onClick="imgsrc();"/>
 </main>
 <footer>
+    <button onclick="changeColor();">Сменить цвет фона</button>
+    <script>
+        var colorArray = ["#5A9C6E", "#A8BF5A", "#FAC46E", "#FAD5BB", "#F2FEFF"]; // создаем массив с цветами фона
+        var i = 0;
 
+        function changeColor(){
+            document.body.style.background = colorArray[i];
+            i++;
+            if( i > colorArray.length - 1){
+                i = 0;
+            }
+        }
+    </script>
 </footer>
 </body>
+
 </html>

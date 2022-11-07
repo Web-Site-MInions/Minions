@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 75px;
+    background: #FFD976;
+
+}
+
+body{
+    background: #FFFDCD;
+}
+.logo_pic{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 16px;
+    top: 0px;
+}
+
+.minions-text{
+    position: absolute;
+    width: 149px;
+    height: 71px;
+    left: 129px;
+    top: 11px;
+
+    font-family: 'Jaldi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 71px;
+
+    color: #000000;
+}
+
+.pic{
+    position: absolute;
+    width: 266px;
+    height: 266px;
+}
+
+.pic1{
+    left: 185px;
+    top: 158px;
+}
+
+.pic2{
+    left: 623px;
+    top: 158px;
+}
+
+.pic3{
+    left: 1061px;
+    top: 158px;
+}
+
+.pic4{
+    left: 185px;
+    top: 532px;
+}
+
+.pic5{
+    left: 623px;
+    top: 532px;
+}
+
+.pic6{
+    left: 1073px;
+    top: 532px;
+}

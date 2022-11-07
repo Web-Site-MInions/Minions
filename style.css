@@ -42,32 +42,32 @@ body{
     height: 266px;
 }
 
-.pic1{
+#pic1{
     left: 185px;
     top: 158px;
 }
 
-.pic2{
+#pic2{
     left: 623px;
     top: 158px;
 }
 
-.pic3{
+#pic3{
     left: 1061px;
     top: 158px;
 }
 
-.pic4{
+#pic4{
     left: 185px;
     top: 532px;
 }
 
-.pic5{
+#pic5{
     left: 623px;
     top: 532px;
 }
 
-.pic6{
+#pic6{
     left: 1073px;
     top: 532px;
 }

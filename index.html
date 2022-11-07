@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <link href="style.css" rel="stylesheet" type="text/css">
     <title>Minions</title>
+    <script src="/script.js"></script>
 </head>
 <body>
 <header>
@@ -33,18 +34,7 @@
 </main>
 <footer>
     <button onclick="changeColor();">Сменить цвет фона</button>
-    <script>
-        var colorArray = ["#5A9C6E", "#A8BF5A", "#FAC46E", "#FAD5BB", "#F2FEFF"]; // создаем массив с цветами фона
-        var i = 0;
-
-        function changeColor(){
-            document.body.style.background = colorArray[i];
-            i++;
-            if( i > colorArray.length - 1){
-                i = 0;
-            }
-        }
-    </script>
+    <script src="/script.js"></script>
 </footer>
 </body>
 
